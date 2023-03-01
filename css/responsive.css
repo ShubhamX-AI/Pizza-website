@@ -1,0 +1,65 @@
+
+@media only screen and (max-width : 1534px){
+    .navbar{
+        flex-direction: column;
+    }
+    .display{
+        display: none;
+    }
+    .position{
+        height: 45px;
+    }
+    .logo {
+        margin: auto;
+    }
+    .navlist{
+        flex-direction: column;
+    }
+    .burger{
+        display: flex;
+        flex-direction: column;
+    }
+    .account {
+        position: static;
+    }
+    .orderdiv{
+        flex-direction: column;
+        width: 100%;
+    }
+    .orderdiv img{
+        width: 100%;
+    }
+    .offers{
+        width: 100%;
+    }
+    .offers h1{
+        width: 100%;
+        text-align: center;
+    }
+    .menuheading h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+    .menu {
+        background-size: auto;
+        background-repeat: round;
+    }
+    .offerheading h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+    
+}
+@media only screen and (max-width : 818px){
+    .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .menu div{
+        width: 69%;
+    }
+}
